@@ -29,7 +29,7 @@ function displayEmployees(employeeData) {
         let city = employee.location.city;
         let picture = employee.picture;
 
-    // template literals make thid do much cleaner! 
+    // template literals make this so much cleaner! 
     employeeHTML += `
         <div class="card" data-index="${index}">
             <img class="avatar" src="${picture.large}"/>
